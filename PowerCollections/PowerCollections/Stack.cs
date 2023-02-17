@@ -12,7 +12,7 @@ namespace Wintellect.PowerCollections
         private int count = 0; // текущее число элементов в стеке
         public int Count { get { return count; } }
 
-        public Stack(int count)
+        public Stack(int count = 100)
         {
             this.Array = new T[count];
         }

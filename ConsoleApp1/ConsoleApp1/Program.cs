@@ -1,4 +1,4 @@
-﻿var stack = new Wintellect.PowerCollections.Stack<int>(10);
+﻿var stack = new Wintellect.PowerCollections.Stack<int>();
 
 for (int i = 0; i < stack.Capacity; i++)
 {

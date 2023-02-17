@@ -5,7 +5,7 @@
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<Deterministic>false</Deterministic>
 		<PackageId>chuchu2003.PowerCollections</PackageId>
-		<VersionPrefix>0.0.1</VersionPrefix>
+		<VersionPrefix>0.0.2</VersionPrefix>
 		<VersionSuffix>beta</VersionSuffix>
 		<RepositoryUrl>https://github.com/chuchu2003/DevTools_lab02</RepositoryUrl>
 		<Title>Wintellect.PowerCollections</Title>
