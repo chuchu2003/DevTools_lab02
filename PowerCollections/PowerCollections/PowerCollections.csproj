@@ -13,6 +13,7 @@
 		<Description>The Power Collections group of collection classes.</Description>
 		<Company>Wintellect</Company>
 		<Authors>Wintellect</Authors>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 	</PropertyGroup>
 
 </Project>
