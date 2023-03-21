@@ -27,7 +27,7 @@ jobs:
       working-directory: PowerCollections
       
     - name: Publish package
-      run: dotnet nuget push ".\PowerCollections\bin\Release\chuchu2003*.nupkg" --api-key ${{ secrets.GITHUB_TOKEN }} --source "github_AC" --skip-duplicate
+      run: dotnet nuget push ".\PowerCollections\bin\Release\chuchu2003*.nupkg" --api-key ${{ secrets.GITHUB_TOKEN }} --source https://nuget.pkg.github.com/chuchu2003/index.json --skip-duplicate
       working-directory: PowerCollections
       
     - name: Get XML
