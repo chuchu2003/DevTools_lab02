@@ -54,7 +54,7 @@ namespace Wintellect.PowerCollections.Tests
             Stack<int> stack = new Stack<int>(3);
             stack.Push(2);
             stack.Push(9);
-            stack.Push(5);
+            stack.Push(129);
             Assert.AreEqual(5, stack.Pop());
         }
         [TestMethod]
